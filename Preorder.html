@@ -1,0 +1,79 @@
+<link rel="stylesheet" href="css/mainHome.css">
+<link rel="stylesheet" href="css/subContent.css">
+ <script src="js/toties.js"></script>
+
+<p>&nbsp;</p>
+<div class="center">
+    <h1>Pre-order Toties Now!</h1>
+    <p>Fill out this google form to pre-order your tote bag now!</p>
+              
+     
+  
+      <div id="inputOrderDIV" style="width:600px" class="center">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email..">
+
+        <p></p>
+        <label for="rbDesign">What size of bag?</label>
+        <p>
+            <input id="rbDesign1" name="rbDesign" type="radio" value="smallreversible" />Small Reversible
+            <input id="rbDesign2" name="rbDesign" type="radio" value="bigreversible" />Big and Reversible
+        </p>
+        <label for="designSize">What size design?</label>
+        <select id="designSize" name="designSize">
+          <option value="smalldesign">Small (A5)  $3</option>
+          <option value="bigdesign">Big (A4)  $5</option>
+          <option value="nodesign">No design</option>
+        </select>
+  
+        <p></p>
+        <label for="designImage">Upload Design (if you like)</label>
+        <p>
+            <input type="file" id="designImage" name="designImage" placeholder="Your design image..">
+        </p>
+
+
+        <label for="phone">Phone number</label>
+        <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+
+        <input type="button" value="Submit" onclick="myFunction();">
+
+
+    </div>
+       
+
+    <div id="submittedOrderDIV" style="width:600px; display:none" class="center">
+        <h1>Thank you for your order. <br />We will be working on your bag and get it to you asap!</h1>
+        <p>Here's your order details:</p>
+        <p></p>
+
+
+        <label for="email">Email</label>
+        <input type="text" id="emailSubmitted" name="email" readonly="readonly" class="inputReadOnly">
+
+        <p></p>
+        <label for="designSubmitted">What size of bag?</label>        
+        <input type="text" id="designSubmitted" name="designSubmitted" readonly="readonly" class="inputReadOnly">
+        
+
+        <label for="designSizeSubmitted">What size design?</label>        
+        <input type="text" id="designSizeSubmitted" name="designSizeSubmitted" readonly="readonly" class="inputReadOnly">
+        
+  
+        <p></p>
+        <label for="designImageSubmitted">Uploaded Design</label>
+        <p>            
+            <img id="designImageSubmitted"  src="https://picsum.photos/200/300" />
+        </p>
+
+
+        <label for="phoneSubmitted">Phone number</label>
+        <input type="text" id="phoneSubmitted" name="phoneSubmitted"  readonly="readonly" class="inputReadOnly">
+        
+
+
+    </div>
+
+
+
+</div>

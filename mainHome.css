@@ -1,0 +1,125 @@
+
+body {
+    background-color: #C8C2BD;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+        h1, p {
+            text-align: center; /* Center the headers and text */
+            margin-left: 50px; /* Add left margin */
+            margin-right: 50px; /* Add right margin */
+        }
+.navbar {
+    display: block;
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+    background-color: #5C4033;
+    /* margin: 0 10%; Add margins to the sides */
+    border-left: 1px solid #000; /* Add left border */
+    border-right: 1px solid #000; /* Add right border */
+}
+        .navbar a {
+            float: left;
+            display: block;
+            color: #FFFFE0;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .mainlogo{
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+        }
+
+        /* .menuItem{          
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;       
+          font-size: 15px;
+          color: green;                            
+        } */
+
+        .row {
+          width: 100%;
+          margin: 0 auto;
+          vertical-align: bottom;
+        }
+        .block {
+          width: 15%;
+          float:left;
+          margin-left: 5%;
+          margin-top: 40px;          
+          font-size: 25px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .blockLogo {
+          width: 15%;
+          float:left;
+          margin-left: 5%;          
+        }
+
+
+        .rowInput {
+            width: 100%;
+            margin: 0 auto;
+            vertical-align: bottom;
+        }
+
+        .blockInput {
+            float: left;
+            /*margin-left: 5%;            
+                        width: 15%;
+                    */
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+
+    /********************************************/
+.center {
+    
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+iframe {
+    aspect-ratio: 16/9;
+    height: 50%;
+    width: 100%;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    
+}
+
+/* Create two equal columns that floats next to each other */
+.columnThree {
+    float: left;
+    width: 30%;
+}
+
+/* Create two equal columns that floats next to each other */
+.columnFive {
+    float: left;
+    width: 15%;
+    
+}
+
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}

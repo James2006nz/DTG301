@@ -1,0 +1,178 @@
+p{
+    color: black;  
+}
+
+
+.subPage{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.blueShades{
+    color: blue;
+    font-size: 18px;
+    background-color: gray;
+    width: 200px;
+}
+
+.sunnyYellow{
+    color: yellow;
+    font-size: 18px;
+    background-color: green;
+    width: 35%;
+}
+
+.OurMission{
+    color:black;
+    font-size:20px;
+    width: 600px;
+    text-align: center;
+    border-right:10px;
+    float:center;
+    position: absolute;
+    bottom: 70;
+    right: 150;
+    background-color:rgba(127, 163, 138, 0.144) ;
+    
+    
+}
+
+
+.OurMissionNew {
+    color: black;
+    background-color: rgba(127, 163, 138, 0.144);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.OurMissionHEADINGNew {
+    color: black;
+    font-size: 38px;
+    background-color: #C8C2BD;
+    text-align: center;
+    border-right: 10px;
+}
+
+
+.OurMissionHEADING{
+    color:black;
+    font-size:38px;
+    width: 600px;
+    text-align: center;
+    border-right:10px;
+/*    float:center;*/
+    position: absolute;
+    bottom: 530;
+    right: 160;
+}
+
+.ourstorybag{
+    width:500px;
+    height:700;
+    position: absolute;
+    bottom: -60;
+    left: 130;
+    
+}
+
+.CatholicCathedralCollege{
+    width:1200px;
+    height:Auto;
+    position: absolute;
+    bottom: -810;
+    right: -230;
+}
+
+.CatholicCathedralCollegeNew {
+    width: 600px;
+    
+}
+
+
+.OurMission2{
+    color:black;
+    font-size:20px;
+    width: 600px;
+    text-align: center;
+    border-right:10px;
+    float:center;
+    position: absolute;
+    bottom: -510;
+    left: 130;
+    background-color:rgba(127, 163, 138, 0.144) ;
+}
+
+.MeetTheTeamHEADING{
+    color:black;
+    font-size:38px;
+    position: absolute;
+    bottom: -900;
+    left: 600;
+   
+}
+
+.venice{
+    width:300px;
+    height:300;
+}
+
+
+/******************** Styling for ordering form  ***/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+label {
+    font-weight:bold;
+}
+
+.inputReadOnly{
+    background-color:lightcyan;        
+}
+
+.photoTile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-left:50px;
+}
+
+.photoTileBig {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding-left: 50px;
+}
+
+.labelBold{
+    font-weight:bold;
+
+}
